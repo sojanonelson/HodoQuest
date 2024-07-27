@@ -3,7 +3,7 @@ import React from 'react'
 const ContactForm = () => {
   return (
     <div className='flex flex-row items-center justify-center lg:px-10'>
-      <div className='w-2/4 bg-white   p-10 flex flex-col'>
+      <div className='lg:w-2/4 bg-white   p-10 flex flex-col'>
       <h1 className='text-5xl poppins-bold text-left text-[#159D86]'>Join us</h1>
       <p className='text-[#159D86] poppins-medium'>Do you want to join our team?</p>
 
@@ -43,7 +43,7 @@ const ContactForm = () => {
       </div>
 
       </div>
-      <div className='w-2/4'>
+      <div className='lg:w-2/4 lg:block hidden'>
 
       <h1 className="lg:text-6xl text-[#159D86] py-2 text-xl poppins-bold font-bold">Explore निरन्तरा...</h1>
         <h1 className='text-[#159D86] lg:text-xl poppins-medium'>EXPLORE WITH US</h1>

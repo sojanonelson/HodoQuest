@@ -12,7 +12,7 @@ const SelectedProduct = () => {
         <h1 className='poppins-regular text-4xl text-[#1D8E8E]'>Natural Honey</h1>
         <p className='poppins-medium text-xl text-[#1D8E8E]'>Experience Our Native Products</p>
         <p className='poppins-bold text-[#1D8E8E]'>We have large number of community products for you</p>
-        <button className='text-center poppins-medium bg-[#1D8E8E] w-2/4 text-white p-2 rounded-lg'>Buy Now</button>
+        <a href='https://www.instagram.com/hodoq4cbp/'><button className='text-center poppins-medium bg-[#1D8E8E] w-2/4 text-white p-2 rounded-lg'>Buy Now</button></a>
 
 
         </div>
