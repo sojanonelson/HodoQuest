@@ -4,7 +4,7 @@ import Footer from '../components/Footer/Footer'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='flex flex-col'>
       <ContactForm/>
       <Footer/>
     </div>
