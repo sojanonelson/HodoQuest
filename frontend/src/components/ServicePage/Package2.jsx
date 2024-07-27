@@ -1,8 +1,14 @@
 import React from 'react'
-
+import PackageDetail from '../Common/PackageDetail'
+import Footer from '../Footer/Footer'
+import Premium from '../../Data/PackageDetails/premium'
 const Package2 = () => {
   return (
-    <div>Package2</div>
+    <div>
+        <PackageDetail data={Premium}/>
+        <Footer/>
+
+    </div>
   )
 }
 

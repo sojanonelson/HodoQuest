@@ -1,12 +1,15 @@
-import React from 'react';
+import React from 'react'
+import SelectedProduct from './SelectedProduct'
+import RelatedProduct from './RelatedProduct'
 
-function ProductPage() {
+const ProductPage = () => {
   return (
-    <section className="product-page">
-      <h2>Natural Honey</h2>
-      <button>Buy Now</button>
-    </section>
-  );
+    <div className='flex flex-col'>
+      <SelectedProduct  />
+      <RelatedProduct/>
+      
+    </div>
+  )
 }
 
-export default ProductPage;
+export default ProductPage

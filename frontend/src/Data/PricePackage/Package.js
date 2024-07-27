@@ -7,7 +7,7 @@ const Package = {
         "Ladies Only",
         "Heritage & Historical"
       ],
-      link:'/premium-economic'
+      link:'/premium'
     },
     premiumOnly: {
       name: "Premium Only",

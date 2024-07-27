@@ -54,7 +54,7 @@ const Navbar = () => {
         <div className='p-4 flex flex-col'>
           <Link to='/' className='text-[#1D8E8E] poppins-regular cursor-pointer text-lg'>Home</Link>
           <Link to='/service' className='text-[#1D8E8E] poppins-regular cursor-pointer text-lg'>Service</Link>
-          <Link to='/product' className='text-[#1D8E8E] poppins-regular cursor-pointer text-lg'>Tourism Products</Link>
+          <Link to='/products' className='text-[#1D8E8E] poppins-regular cursor-pointer text-lg'>Tourism Products</Link>
           <Link to='/contact' className='text-[#1D8E8E] poppins-regular cursor-pointer text-lg'>Contact Us</Link>
           <div className='flex p-2 mt-4 hover:bg-[#31acac] items-center rounded-lg cursor-pointer bg-[#1D8E8E]'>
             <h1 className='px-2 text-white'>Join Us</h1>
