@@ -1,15 +1,25 @@
 import React from "react";
 import Logo from "../../Image/logo.png";
 import { Link } from "react-router-dom";
+import { FaInstagram} from 'react-icons/fa';
+
 const Footer = () => {
 
 
   return (
     <div className="flex flex-col lg:flex-row items-center p-10 justify-between border-[#094944] border-t">
+      <div>
       <Link to='/' className="flex flex-col items-center">
         
         <img src={Logo} alt="logo" className="w-52 cursor-pointer"></img>
+       
+        
+
       </Link>
+      <a href="https://www.instagram.com/hodoq4cbp/" className="flex p-1"><FaInstagram  color="gray" size={30} /></a>
+
+      </div>
+
       <div className="quick-links flex flex-col lg:flex-row gap-10  lg:w-4/5 justify-between ">
 
         

@@ -10,7 +10,9 @@ const PackageDetail = ({data}) => {
       <div className='flex flex-col justify-center items-center'>
         <h1 className='lg:text-5xl text-2xl text-center poppins-bold text-[#1D8E8E]'>{data.title}</h1>
         <p className='lg:text-lg text-sm poppins-medium py-3 text-[#1D8E8E]'>{data.description}</p>
-        <button className='text-center p-2 bg-[#1D8E8E] px-4 text-white rounded-md'>{data.buttonTitle}</button>
+        <a href={data.link}>
+        <button className='text-center p-2 bg-[#1D8E8E] px-4 text-white rounded-md'>{data.buttonTitle}</button></a>
+        
       </div>
 
       <div className='flex flex-col'>
@@ -22,7 +24,7 @@ const PackageDetail = ({data}) => {
               title={item.title}
               image={item.image}
               description={item.description}
-              link={'#'} // Assuming the link is same for all cards
+              link={item.link} // Assuming the link is same for all cards
             />
           );
         })}

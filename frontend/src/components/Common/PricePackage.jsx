@@ -8,7 +8,7 @@ const PricePackage = ({ packageDetails, link }) => {
       <h1 className='poppins-medium text-xl mb-4'>{packageDetails.name}</h1>
       <ul className='list-disc list-inside px-5 mb-4'>
         {packageDetails.features.map((feature, index) => (
-          <li key={index} className='poppins-regular text-[#454545]'>{feature}</li>
+          <a href={packageDetails.link}><li key={index} className='poppins-regular text-[#454545]'>{feature}</li></a>
         ))}
       </ul>
       <Link to={packageDetails.link} className='flex justify-center items-center w-full mt-auto'>
